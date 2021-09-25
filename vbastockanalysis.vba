@@ -107,15 +107,6 @@ ws.Activate
     maxvol = Application.WorksheetFunction.max(rng2)
     Cells(2, 16).Value = maxvol
     
-    Dim ticker2 As String
-    Dim ticker3 As String
-    Dim ticker4 As String
-    Dim Loc2 As String
-    Dim RealLoc2 As String
-    
-    ticker2 = Application.WorksheetFunction.Match(greatdec, rng, 0)
-    Loc2 = rng.Cells(ticker2).Address
-    Cells(3, 15).Value =
     
 Next ws
 End Sub
